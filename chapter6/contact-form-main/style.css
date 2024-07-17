@@ -1,0 +1,76 @@
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .container{
+      display: flex;
+      justify-content: center;
+      margin-top: 100px;
+      max-width: 100%;
+      align-items: center;
+    }
+    .info{
+    box-sizing: border-box;
+    padding: 5px 30px;
+    border-radius: 10px;
+    border-color: black;
+    width: 40%;
+    height: 500px;
+    background-color: white;
+    
+}
+.query{
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 0.5px solid #000;
+  padding: 5px 10px;
+  width: 240px;
+  margin-right: 16px;
+  border-radius: 5px;
+}
+.margin{
+  
+}
+.main{
+  display: flex;
+
+}
+.message{
+  width: 100%;
+  height: 100px;
+  border-radius: 5px;
+  max-width: 100%;
+}
+button {
+  width: 100%;
+  background-color: rgb(4, 78, 53);
+  color: white;
+  height: 30px;
+  margin-bottom: 16px;
+}
+.drop{
+  background-color: white;
+  box-sizing: border-box;
+  border-color: black;
+}
+.names{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.firstname{
+  width: 220px;
+  height: 25px;
+  border-radius: 5px;
+}
+.email{
+  width: 100%;
+  height: 25px;
+  border-radius: 5px;
+}
+.lastname{
+  padding-left: 10px;
+}
+body{
+    background-color: lightgray;
+}

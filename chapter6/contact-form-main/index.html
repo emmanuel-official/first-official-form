@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Contact form</title>
+  <script>
+  function myfunction(){
+      document.getElementById("menu").innerHTML = "Your request is being processed";
+      document.getElementById("menu").style.fontSize = "30px";
+      document.getElementById("menu").style.backgroundColor = "gray";
+      document.getElementById("menu").style.textAlign = "center";
+}
+  </script>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  
+</head>
+<body>
+  <div class="container">
+    <div class="info">
+      <h1>Contact Us</h1>
+      <form action="">
+        <div class="names">
+        <label class="fname">
+          firstname<br>
+        <input type="text"  required class="firstname margin">
+        </label>
+
+        <label class="lastname">
+        lastname<br>
+        <input type="text" aria-errormessage=" This field is required" required class="firstname margin">
+      </label>
+      </div>
+      
+        Email address<br>
+        <input type="email" required class="email margin" >
+        <br>
+      
+      <p>Query type</p>
+      <div class="main">
+      <div class="query margin">
+      <input type="radio" name="query">General inquiry
+    </div>
+    <div class="query margin">
+      <input type="radio" name="query">Support Request
+    </div>
+  </div>
+    
+    message<br>
+    <textarea name="message" cols="60" rows="4"></textarea><br>
+     <input type="checkbox" name="check" required>I consent to being contacted by the team<br>
+     <p id="menu">
+      <button type="button" onclick="myfunction()">submit</button>
+    </p>
+    </form>
+      
+
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</div>
+  </div>
+</body>
+</html>
